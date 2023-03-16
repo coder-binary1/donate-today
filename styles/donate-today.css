@@ -47,7 +47,8 @@ header {
   width: 690px;
   margin: 30px auto;
 }
-.donate-amount {
+.donate-amount,
+.donate-plans {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,4 +116,33 @@ header {
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.donate-items {
+  width: 1128px;
+  display: flex;
+  gap: 24px;
+}
+.donate-item1,
+.donate-item2,
+.donate-item3 {
+  padding: 63px 23px 54px;
+  border-radius: 5px;
+}
+.donate-item1 {
+  background-color: #4f9da61a;
+}
+.donate-item2 {
+  background-color: #ff59591a;
+}
+.donate-item3 {
+  background-color: #fff4d6;
+}
+.donate-item-title,
+.donate-item-disc {
+  font-family: "Poppins", sans-serif;
+}
+.donate-item-title {
+  font-size: 24px;
+  margin: 31px 0 16px;
 }
