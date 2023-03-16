@@ -12,6 +12,13 @@
   border-radius: 5px;
   border: 0;
 }
+.discription {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
 header {
   background-image: linear-gradient(
       360deg,
@@ -23,6 +30,7 @@ header {
   background-position: center;
   background-size: cover;
 }
+
 .header-content {
   width: 826px;
   color: #ffffff;
@@ -34,12 +42,77 @@ header {
   font-weight: 700;
   font-size: 65px;
   line-height: 79px;
-  margin-bottom: 20px;
 }
 .header-disc {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  width: 690px;
+  margin: 30px auto;
+}
+.donate-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.section-title {
+  color: #121212;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section-disc {
+  width: 690px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+.amount-selector {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 60px;
+}
+.amount-selector li {
+  width: 135px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  list-style: none;
+  color: #707070;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 43px 0;
+}
+.amount-selector li:hover {
+  color: #ff5959;
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.amount-selector li.active {
+  color: #ff5959;
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.custom-amount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-amount input[type="number"] {
+  width: 765px;
+  color: #b3b3b3;
+  border: 0;
+  border-bottom: 1px solid #dadada;
   margin-bottom: 30px;
+  outline: none;
+  -webkit-appearance: none;
+}
+.custom-amount input[type="number"]:valid {
+  color: #ff5959;
+  font-weight: 700;
+}
+/* Remove Arrows/Spinners */
+/* Chrome, Safari, Edge, Opera */
+.custom-amount input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
