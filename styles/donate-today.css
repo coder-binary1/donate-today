@@ -66,12 +66,11 @@ header {
 .section-disc {
   width: 690px;
   color: #707070;
-  margin-bottom: 50px;
 }
 .amount-selector {
   display: flex;
   gap: 22px;
-  margin-bottom: 60px;
+  margin: 60px 0;
 }
 .amount-selector li {
   width: 135px;
@@ -124,6 +123,7 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 1128px;
   display: flex;
   gap: 24px;
+  margin-top: 50px;
 }
 .donate-item1,
 .donate-item2,
@@ -160,6 +160,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .their-needs {
   flex-direction: row-reverse;
+  margin-top: 100px;
 }
 .their-needs-img1 {
   background-image: url(../images/donation2.jpg);
@@ -169,10 +170,14 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .their-needs-img1,
 .their-needs-img2 {
-  width: 456px;
+  width: 656px;
   height: 477px;
   border-radius: 5px;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.para-gap {
+  display: block;
+  margin: 20px 0 30px;
 }
