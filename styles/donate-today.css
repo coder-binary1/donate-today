@@ -17,6 +17,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+}
+.tex-center {
   text-align: center;
 }
 header {
@@ -145,4 +147,32 @@ input[type="number"]::-webkit-inner-spin-button {
 .donate-item-title {
   font-size: 24px;
   margin: 31px 0 16px;
+}
+.necessity {
+  width: 1128px;
+  margin: 130px auto;
+}
+.their-lives,
+.their-needs {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+.their-needs {
+  flex-direction: row-reverse;
+}
+.their-needs-img1 {
+  background-image: url(../images/donation2.jpg);
+}
+.their-needs-img2 {
+  background-image: url(../images/donation9.jpg);
+}
+.their-needs-img1,
+.their-needs-img2 {
+  width: 456px;
+  height: 477px;
+  border-radius: 5px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
