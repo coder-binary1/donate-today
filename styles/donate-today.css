@@ -50,7 +50,8 @@ header {
   margin: 30px auto;
 }
 .donate-amount,
-.donate-plans {
+.donate-plans,
+.get-update {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,13 +151,13 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .necessity {
   width: 1128px;
-  margin: 130px auto;
+  margin: 130px auto 0;
 }
 .their-lives,
 .their-needs {
   display: flex;
   align-items: center;
-  gap: 85px;
+  justify-content: space-between;
 }
 .their-needs {
   flex-direction: row-reverse;
@@ -170,7 +171,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .their-needs-img1,
 .their-needs-img2 {
-  width: 656px;
+  width: 456px;
   height: 477px;
   border-radius: 5px;
   background-position: bottom center;
@@ -181,3 +182,35 @@ input[type="number"]::-webkit-inner-spin-button {
   display: block;
   margin: 20px 0 30px;
 }
+.subscribe {
+  margin: 50px 0 130px;
+  background-color: #fff4d6;
+  padding: 76px 188px;
+}
+.subscribe input {
+  font-family: "Roboto";
+  font-weight: 500;
+  margin: 0;
+  float: left;
+  border: 0;
+  /* border-bottom: 1px solid #ff5959; */
+  outline: none;
+}
+.subscribe input[type="email"] {
+  background-color: #d9d9d9;
+  border-radius: 5px 0 0 5px;
+  padding: 14px 218px 14px 17px;
+}
+.subscribe input[type="email"]:active {
+  background-color: #ffffff;
+}
+.subscribe input[type="submit"] {
+  color: #ffffff;
+  background-color: #ff5959;
+  border-radius: 0 5px 5px 0;
+  padding: 14px 43px;
+}
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+ */
